@@ -14,3 +14,19 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
+print("我的第一个代码")
+name="二妹"
+age=3
+height=150
+weight=120
+print(name)
+print(age)
+print(height)
+print(weight)
+print("名字：",name)
+print("年龄：",age)
+print(f"姓名：{name},年龄：{age}")
+h=height/100
+bmi=weight/h/h
+print("BMI数值：",bmi)
+
